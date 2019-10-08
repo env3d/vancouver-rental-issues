@@ -7,13 +7,9 @@ let sqlite = require('sqlite');
 
 function setupServer(db) {
 
-  // This is a test frontend - uncomment to check it out
-  // app.use(express.static('public'));
-  
   app.get('/info', (req, res) => {
     res.send('Vancouver landlord complaints database');
   });
-
   
   app.get('/streets', (req, res) => {
     db.all(`SELECT DISTINCT(street) FROM issues`)
