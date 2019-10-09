@@ -1,6 +1,6 @@
 # The Vancouver bad landlord API
 
-This api allows you to query the bad landlord of Vancouver.  The following routes are available.
+This api allows you to query the bad landlords of Vancouver.  The following routes are available.
 
 ```
 /areas
