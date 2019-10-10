@@ -15,7 +15,7 @@ This api allows you to query the bad landlords of Vancouver.  The following rout
 
 # How it works
 
-With the expection of the /issues, all endpoints work in a similar way, for example the following all the streets that contains rental suites:
+With the exception of the /issues, all endpoints work in a similar way, for example the following all the streets that contains rental suites:
 
 ```
 % curl https://learn.operatoroverload.com/rental/streets
