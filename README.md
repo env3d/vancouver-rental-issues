@@ -1,5 +1,7 @@
 # The Vancouver bad landlord API
 
+NOTE: this api has been deployed to https://learn.operatoroverload.com/rental
+
 This api allows you to query the bad landlords of Vancouver.  The following routes are available.
 
 ```
