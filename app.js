@@ -3,7 +3,7 @@ let express = require('express');
 let app = express();
 
 let sqlite = require('sqlite');
-
+let setupGraphQL = require('./graphql');
 
 function setupServer(db) {
 
@@ -70,6 +70,7 @@ function setupServer(db) {
       });    
   });
 
+  setupGraphQL(app, db);
   
   let server = app.listen(3003, () => {
     console.log('Server ready', server.address().port);
